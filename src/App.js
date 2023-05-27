@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="weather-app-h1">Weather App</h1>
-      <Weather />
+      <Weather defaultCity="London" />
       <footer>
         <p>
           This project was created by Yuliia Ukrainets and it is<span> </span>

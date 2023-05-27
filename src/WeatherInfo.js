@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
@@ -15,7 +16,10 @@ export default function WeatherInfo(props) {
       </ul>
       <div className="row mt-3">
         <div className="col-6 together">
-          <img src={props.data.icon} alt={props.data.description} />
+          <div className="float-left">
+            <WeatherIcon code={props.data.icon} size={52} />
+          </div>
+
           <div className="Temp">
             <span className="temperature">
               {Math.round(props.data.temperature)}

@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import axios from "axios";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 
 export default function FormattedDate(props) {
   let days = [
@@ -21,5 +19,9 @@ export default function FormattedDate(props) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  return `${day} ${hours}:${minutes}`;
+  return (
+    <div>
+      `${day} ${hours}:${minutes}`
+    </div>
+  );
 }

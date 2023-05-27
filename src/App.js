@@ -13,7 +13,7 @@ function App() {
           This project was created by Yuliia Ukrainets and it is<span> </span>
           <a
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
             href="https://github.com/Julyuk/react-weather-app"
           >
             open-sourced on Github

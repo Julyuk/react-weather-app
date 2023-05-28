@@ -10,13 +10,30 @@ function App() {
       <Weather defaultCity="London" />
       <footer>
         <p>
-          This project was created by Yuliia Ukrainets and it is<span> </span>
+          This project was created by{" "}
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://www.linkedin.com/in/yuliia-ukrainets-316974244/"
+          >
+            Yuliia Ukrainets
+          </a>{" "}
+          and it is
+          <span> </span>
           <a
             target="_blank"
             rel="noreferrer noopener"
             href="https://github.com/Julyuk/react-weather-app"
           >
             open-sourced on Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://prismatic-malasada-190939.netlify.app/?"
+          >
+            Netlify
           </a>
         </p>
       </footer>

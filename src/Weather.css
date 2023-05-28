@@ -1,3 +1,6 @@
+body a {
+  text-decoration: none;
+}
 .Weather {
   border: 1px solid #dadde1;
   font-family: arial, sans-serif;

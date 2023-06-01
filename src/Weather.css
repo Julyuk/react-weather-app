@@ -29,10 +29,10 @@ body a {
   padding: 0;
 }
 .Weather canvas {
-  width: 64px;
-  height: 64px;
+  /* width: 64px;
+  height: 64px; */
   display: inline-block;
-  margin-right: 10px;
+  margin: 10px auto;
 }
 .Weather .temperature {
   font-weight: bold;

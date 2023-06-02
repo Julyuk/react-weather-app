@@ -20,6 +20,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
+      coord: response.data.coord,
     });
   }
   function search() {
@@ -65,7 +66,7 @@ export default function Weather(props) {
       <div className="Weather">
         {form}
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coord={weatherData.coord} />
       </div>
     );
   } else {
